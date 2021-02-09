@@ -1,0 +1,6 @@
+[Unit]
+Description=Sort Downloads
+
+[Service]
+Type=oneshot
+ExecStart=/home/santeri/git/scripts/sort-downloads.py

@@ -1,0 +1,9 @@
+[Unit]
+Description=Sort Downloads monthly
+
+[Timer]
+OnCalendar=monthly
+Persistent=true
+
+[Install]
+WantedBy=default.target
