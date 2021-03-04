@@ -33,7 +33,7 @@ def main():
         mtime = datetime.fromtimestamp(stat.st_mtime)
 
         year = str(mtime.year)
-        month = mtime.strftime("%B")
+        month = mtime.strftime("%m. %B")
 
         new_dir = os.path.join(downloads, year, month)
         pathlib.Path(new_dir).mkdir(parents=True, exist_ok=True)
