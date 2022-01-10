@@ -3,9 +3,9 @@ import fcntl
 import struct
 import http.client
 
-IFACE = "ens192"
-CPANEL = "spans.fi"
-CPANEL_DDNS = "/cpanelwebcall/oyternewrkyvctejmfhrlmeyjuyajmsy"
+IFACE = ""
+CPANEL = ""
+CPANEL_DDNS = ""
 PREV_ADDR_LOCATION = "/var/ddns_prev_addr"
 
 
